@@ -36,4 +36,8 @@ module.exports.session = {
   //   return !!req.path.match(req._sails.LOOKS_LIKE_ASSET_RX);
   // },
 
+
+  adapter: 'redis',
+  host: process.env.REDIS_HOST || 'localhost',
+
 };

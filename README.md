@@ -23,3 +23,6 @@ Keep development, staging, and production as similar as possible
 Treat logs as event streams
 12. Admin processes
 Run admin/management tasks as one-off processes1
+
+
+##Site: https://12factor.net/
